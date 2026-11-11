@@ -1,0 +1,10 @@
+name = "temp-note"
+compatibility_date = "2024-09-23"
+pages_build_output_dir = "."
+
+# Cloudflare D1 数据库绑定
+# 部署后在 Cloudflare 控制台创建 D1 数据库并替换 database_id，或者直接在 Pages 设置中绑定
+[[d1_databases]]
+binding = "DB"
+database_name = "temp-note-db"
+database_id = "6713c54e-0280-4805-9c2b-6adf795a3a87"

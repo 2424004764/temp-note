@@ -1,0 +1,17 @@
+{
+  "name": "temp-note",
+  "version": "1.0.0",
+  "description": "极简临时便签网页软件 - 多标签临时文本、TXT导出、一方工具箱OAuth登录、Cloudflare D1跨端同步",
+  "scripts": {
+    "dev": "wrangler pages dev . --d1 DB=temp-note-db",
+    "deploy": "wrangler pages deploy . --project-name=temp-note"
+  },
+  "keywords": [
+    "temp-note",
+    "notepad",
+    "cloudflare-pages",
+    "d1",
+    "oauth2"
+  ],
+  "license": "MIT"
+}
